@@ -140,11 +140,11 @@ function giveMeRandom(n) {
   for (var i = 0; i < n; i++) {
     array += Math.floor(Math.random() * 10) + " ";
   }
-  return array;
+  return "Your numbers are: " + array;
 }
 console.log(giveMeRandom(2));
 
 /* WHEN YOU ARE FINISHED
- Commit and push the code to your personal GitHub repository; then post the link of your commit on the Homework 
- section of today's Eduflow.
+ Commit and push the code to your personal GitHub repository; then post the link of your commit on the 
+ Homework section of today's Eduflow.
 */
