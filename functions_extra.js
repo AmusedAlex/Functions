@@ -1,22 +1,42 @@
 // Additional assignments for Day 5
+let array = [];
+function giveMeRandom(n) {
+  for (var i = 0; i < n; i++) {
+    array.push(Math.floor(Math.random() * 10));
+  }
+  return array;
+}
+console.log("Your numbers are: ", giveMeRandom(10));
 
 /* EXTRA 1
- Write a function called "checkArray" which receives an array of random numbers (created with giveMeRandom) and prints, for each item, whether it's bigger than 5 or not.
- The function should return the sum of just the numbers bigger than 5.
+ Write a function called "checkArray" which receives an array of random numbers (created with giveMeRandom) and prints,
+ for each item, whether it's bigger than 5 or not. The function should return the sum of just the numbers bigger than 5.
 */
-
-/* WRITE YOUR ANSWER HERE */
+console.log("\nEXERCISE 1");
+function checkArray(array) {
+  let sum = 0;
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] > 5) {
+      sum += array[i];
+    } else {
+      sum += 0;
+    }
+  }
+  return sum;
+}
+console.log(checkArray(array));
 
 /* EXTRA 2
- In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, an id and the quantity to be shipped.
- Create a function called "shoppingCartTotal" which calculates the total due to the shop.
+ In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, 
+ an id and the quantity to be shipped. Create a function called "shoppingCartTotal" which calculates the total due to the shop.
 */
 
 /* WRITE YOUR ANSWER HERE */
 
 /* EXTRA 3
- In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, an id and the quantity to be shipped.
- Create a function called "addToShoppingCart" which receives a new object, adds it to shoppingCart and returns the total number of items in the shoppingCart.
+ In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, 
+ an id and the quantity to be shipped. Create a function called "addToShoppingCart" which receives a new object, adds it 
+ to shoppingCart and returns the total number of items in the shoppingCart.
 */
 
 /* WRITE YOUR ANSWER HERE */

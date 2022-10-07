@@ -138,11 +138,11 @@ console.log("\nEXERCISE 10");
 function giveMeRandom(n) {
   let array = [];
   for (var i = 0; i < n; i++) {
-    array += Math.floor(Math.random() * 10) + " ";
+    array.push(Math.floor(Math.random() * 10));
   }
-  return "Your numbers are: " + array;
+  return array;
 }
-console.log(giveMeRandom(2));
+console.log("Your numbers are: ", giveMeRandom(2));
 
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the 
