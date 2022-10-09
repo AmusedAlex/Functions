@@ -32,7 +32,7 @@ function crazySum(x, y) {
     return x + y;
   }
 }
-console.log(crazySum(2, 2));
+console.log(crazySum(8, 8));
 
 /* EXERCISE 3
  Write a function called "crazyDiff" that computes the absolute difference between a given number and 19.
@@ -46,7 +46,7 @@ function crazyDiff(givenNumber) {
     return givenNumber - 19;
   }
 }
-console.log(crazyDiff(20));
+console.log(crazyDiff(68));
 
 /* EXERCISE 4
  Write a function called "boundary" which accept an integer parameter n and returns true if n is within 
@@ -142,7 +142,7 @@ function giveMeRandom(n) {
   }
   return array;
 }
-console.log("Your numbers are: ", giveMeRandom(2));
+console.log("Your numbers are: ", giveMeRandom(10));
 
 /* WHEN YOU ARE FINISHED
  Commit and push the code to your personal GitHub repository; then post the link of your commit on the 

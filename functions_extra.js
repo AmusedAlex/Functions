@@ -6,7 +6,7 @@ function giveMeRandom(n) {
   }
   return array;
 }
-console.log("Your numbers are: ", giveMeRandom(10));
+console.log("Your numbers are: ", giveMeRandom(2));
 
 /* EXTRA 1
  Write a function called "checkArray" which receives an array of random numbers (created with giveMeRandom) and prints,
@@ -31,7 +31,26 @@ console.log(checkArray(array));
  an id and the quantity to be shipped. Create a function called "shoppingCartTotal" which calculates the total due to the shop.
 */
 
-/* WRITE YOUR ANSWER HERE */
+const tv = {
+  name: "Samsung UA65",
+  price: 500,
+  ID: "15661452",
+  quantity: 10,
+};
+const smartphone = {
+  name: "iPhone 14",
+  price: 1200,
+  ID: "56465412",
+  quantity: 10,
+};
+const headphones = {
+  name: "Apple AirPods Pro",
+  price: 180,
+  ID: "94551556",
+  quantity: 10,
+};
+
+const shoppingCart = {};
 
 /* EXTRA 3
  In your eCommerce you have an array of objects called shoppingCart. Each one of these objects has a price, a name, 
